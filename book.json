@@ -1,0 +1,74 @@
+{
+  "gitbook": ">=3.2.0",
+  "description": "开源软件文档目录",
+  "language": "zh-hans",
+  "author": "温玉 <admin@zhaowenyu.com>",
+  "extension": null,
+  "generator": "site",
+  "title": "Etcd文档中文版",
+  "variables": {
+  },
+  "links" : {
+    "sidebar": {
+        "CNCFSTACK": "http://www.zhaowenyu.com"
+    }
+  },
+  "structure" : {
+        "readme" : "README.md"
+    },
+  "plugins": [
+    "toggle-chapters",
+    "chapter-fold",
+    "-lunr", "-search", "search-pro",
+    "-sharing", "sharing-plus",
+    "advanced-emoji",
+    "github",
+    "edit-link", 
+    "splitter",
+    "etoc",
+    "back-to-top-button",
+    "tbfed-pagefooter",
+    "page-toc-button",
+    "donate",
+    "pageview-count",
+    "tags"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+        "base": "https://gitee.com/cncfstack/etcd-doc/blob/master/README.md",
+        "label": "编辑"
+    },
+    "github": {
+      "url": "https://gitee.com/cncfstack/etcd-doc/blob/master/README.md"
+    },
+    "sharing": {
+         "qzone": true,
+         "weibo": true,
+         "whatsapp": true,
+         "all": [
+             "douban", "facebook", "google", "hatenaBookmark", 
+             "instapaper", "linkedin","twitter", "weibo", 
+             "messenger","qq", "qzone","viber","vk","weibo",
+             "pocket", "stumbleupon","whatsapp"
+         ]
+     },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy 温玉 2021 | <a href='https://beian.miit.gov.cn/#/Integrated/index'>浙ICP备2020032454号</a>",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "page-toc-button": {
+      "maxTocDepth": "3",
+      "minTocSize": "3"
+     },
+    "donate": {
+      "wechat": "https://my-pay-code.oss-cn-hangzhou.aliyuncs.com/wechat-pay.jpg",
+      "alipay": "https://my-pay-code.oss-cn-hangzhou.aliyuncs.com/ali-pay.jpg",
+      "title": "鼓励一下",
+      "button": "赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
+    }
+
+  }
+}

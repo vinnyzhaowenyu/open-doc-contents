@@ -1,0 +1,12 @@
+_book
+node_modules
+ossutil_output
+draft
+.ossutil_checkpoint
+*_book
+*node_modules
+*ossutil_output
+*draft
+*.ossutil_checkpoint
+cankao.txt
+*cankao.txt
